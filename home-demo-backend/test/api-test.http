@@ -1,0 +1,16 @@
+### Get Shopping List
+GET http://localhost:3001/api/shopping-list
+
+### Update Shopping List
+POST http://localhost:3001/api/shopping-list
+Content-Type: application/json
+
+{
+    "items": [
+        { "id": 1, "name": "Banana", "quantity": 52 },
+        { "id": 2, "name": "Grapes", "quantity": 10 }
+    ]
+}
+
+### Get Shopping List server
+GET http://charlie15.top/api/shopping-list
