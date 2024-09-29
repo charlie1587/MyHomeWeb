@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/homde-demo/node_modules
+/homde-demo/.pnp
+/homde-demo/pnp.js
+
+# testing
+/homde-demo/coverage
+
+# production
+/homde-demo/build
+
+# misc
+/homde-demo/.DS_Store
+/homde-demo/.env.local
+/homde-demo/env.development.local
+/homde-demo/.env.test.local
+/homde-demo/.env.production.local
+
+/homde-demo/npm-debug.log*
+/homde-demo/yarn-debug.log*
+/homde-demo/yarn-error.log*
